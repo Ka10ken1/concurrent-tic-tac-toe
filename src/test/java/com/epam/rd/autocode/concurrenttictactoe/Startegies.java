@@ -2,8 +2,6 @@ package com.epam.rd.autocode.concurrenttictactoe;
 
 import java.util.stream.Stream;
 
-import static com.epam.rd.autocode.concurrenttictactoe.PlayerImpl.isStarted;
-
 class NorthWestStrategy implements PlayerStrategy {
 
     @Override
