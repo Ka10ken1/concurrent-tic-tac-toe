@@ -1,5 +1,7 @@
 package com.epam.rd.autocode.concurrenttictactoe;
 
+import java.util.Arrays;
+
 public interface TicTacToe {
 
     /**
@@ -23,7 +25,8 @@ public interface TicTacToe {
      */
     char lastMark();
 
-    static TicTacToe buildGame() {
-        throw new UnsupportedOperationException();
+     static TicTacToe buildGame() {
+        return new MyTicTacToe();
     }
+
 }
